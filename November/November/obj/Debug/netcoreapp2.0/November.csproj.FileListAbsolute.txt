@@ -1,0 +1,11 @@
+C:\Users\sinda\Documents\Visual Studio 2017\Projects\November\November\bin\Debug\netcoreapp2.0\November.deps.json
+C:\Users\sinda\Documents\Visual Studio 2017\Projects\November\November\bin\Debug\netcoreapp2.0\November.runtimeconfig.json
+C:\Users\sinda\Documents\Visual Studio 2017\Projects\November\November\bin\Debug\netcoreapp2.0\November.runtimeconfig.dev.json
+C:\Users\sinda\Documents\Visual Studio 2017\Projects\November\November\bin\Debug\netcoreapp2.0\November.dll
+C:\Users\sinda\Documents\Visual Studio 2017\Projects\November\November\bin\Debug\netcoreapp2.0\November.pdb
+C:\Users\sinda\Documents\Visual Studio 2017\Projects\November\November\obj\Debug\netcoreapp2.0\November.csprojResolveAssemblyReference.cache
+C:\Users\sinda\Documents\Visual Studio 2017\Projects\November\November\obj\Debug\netcoreapp2.0\November.csproj.CoreCompileInputs.cache
+C:\Users\sinda\Documents\Visual Studio 2017\Projects\November\November\obj\Debug\netcoreapp2.0\November.AssemblyInfoInputs.cache
+C:\Users\sinda\Documents\Visual Studio 2017\Projects\November\November\obj\Debug\netcoreapp2.0\November.AssemblyInfo.cs
+C:\Users\sinda\Documents\Visual Studio 2017\Projects\November\November\obj\Debug\netcoreapp2.0\November.dll
+C:\Users\sinda\Documents\Visual Studio 2017\Projects\November\November\obj\Debug\netcoreapp2.0\November.pdb
