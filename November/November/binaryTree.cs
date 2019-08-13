@@ -227,9 +227,52 @@ namespace November
         // full nodes
         public int fullNodes()
         {
+            return fullNodes(head);
         }
-        
-        private 
+
+        private int fullNodes(binaryTreeNode head)
+        {
+            if (head == null) return 0;
+            if (head.left != null && head.right != null)
+            {
+                return fullNodes(head.left) + fullNodes(head.right) + 1;
+            }
+            else
+            {
+                return fullNodes(head.left) + fullNodes(head.right);
+            }
+        }
+
+        // half nodes
+        public int halfNodes()
+        {
+            return halfNodes(head);
+        }
+
+        private int halfNodes(binaryTreeNode head)
+        {
+            if (head == null) return 0;
+            if ((head.left != null && head.right == null) || (head.left == null && head.right != null))
+            {
+                return halfNodes(head.left) + halfNodes(head.right) + 1;
+            }
+            return halfNodes(head.left) + halfNodes(head.right);
+        }
+
+        // leaf nodes
+        public int leafNodes()
+        {
+            return leafNodes(head);
+        }
+
+        private int leafNodes(binaryTreeNode head)
+        {
+            if (head == null) return 0;
+            if (head.left == null && head.right == null) return 1;
+            return leafNodes(head.right) + leafNodes(head.left);
+
+        }
 
     }
 }
+ 
