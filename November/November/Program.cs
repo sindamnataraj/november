@@ -8,11 +8,16 @@ namespace November
         {
 
             int[] A = new int[5] { 5,4,3,2,1};
+            binaryTree bt = new binaryTree();
+            bt.Insert(4);
+            bt.Insert(2);
+            bt.Insert(6);
+            bt.Insert(1);
+            bt.Insert(3);
+            bt.Insert(5);
+            bt.Insert(7);
 
-            int[] A1 = new int[5] { 123, 234,111,901,100};
-            sorting.radixSort(A1, 10, 3);
-
-            utility.printArray(A);
+            bt.inOrder();
 
             Console.ReadLine();
         }
